@@ -57,8 +57,9 @@ transform: translateX(6.95%);
 #photo p{
 color: #00000080;
 font-size: 12px;
+width: 90%;
 margin: 10px 0px 100px;
-transform: translateX(6.5%);
+transform: translateX(8%);
 letter-spacing: 1.2px;
 }
 #dribble {
@@ -80,6 +81,7 @@ letter-spacing: 1.2px;
   background-color:#111112 ;
   padding: 140px 0 80px 0;
   margin-top: 80px;
+  width: 100%;
 }
 #contact .about {
   width: 50%;
@@ -148,3 +150,38 @@ footer{
   #contact .talk a{
     font-size: 1em;
   }
+}
+@media screen and (max-width: 800px) {
+  #contact {
+    display: block;
+  }
+}
+@media screen and (max-width: 800px) {
+  #contact .about h5 {
+    margin-left: -1em;
+  }
+}
+@media screen and (max-width: 800px) {
+  #contact .about p{
+    margin-left: -2em;
+    width: 100%;
+    margin-bottom: 4em;
+  }
+}
+@media screen and (max-width: 800px) {
+  #contact .talk a {
+    margin-left: -1.3em;
+  }
+}
+@media screen and (max-width: 800px) {
+  #contact .talk p {
+    transform: translateX(-13%);
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #contact .talk h5 {
+    transform: translateX(-13%);
+    
+  }
+}

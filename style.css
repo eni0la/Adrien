@@ -5,6 +5,7 @@
 body{
   font-family: 'Inter' , sans-serif;
   overflow-x: hidden;
+  width: 100%;
 }
 a {
   cursor: pointer;
@@ -31,7 +32,7 @@ transform: translateX(6.95%);
   margin-bottom: 50px;
   letter-spacing: -0.15px;
   transform: translateX(6.95%);
-  width: 90%;
+  width: 95%;
 }
 .available {
   display: flex;
@@ -39,6 +40,7 @@ transform: translateX(6.95%);
   align-items: center;
   margin-bottom: 100px;
   color: #0072FF;
+  width: 90%;
   font-size: 16px;
   transform: translateX(6%);
   letter-spacing: -0.3px;
@@ -80,7 +82,7 @@ letter-spacing: 1.2px;
   margin-top: 80px;
 }
 #contact .about {
-  width: 55%;
+  width: 50%;
 }
 #contact .about h5{
 color: #ffffff;
@@ -110,7 +112,7 @@ line-height: 24px;
 #contact .talk a{
   color: #919192;
   text-decoration: none;
-  font-size: 29px;
+  font-size: 0.9em;
 }
 #contact .talk a:hover{
   color: #0072FF;
@@ -123,7 +125,7 @@ line-height: 24px;
   padding: 20px;
   border-radius: 5px;
   margin-bottom: 15px;
-  width: 400px;
+  width: 80%;
   
 
 }
@@ -142,3 +144,7 @@ footer{
  padding-top: 7em;
  padding-left: 8%; 
 }
+/*@media screen and (max-width: 300px) {
+  #contact {
+    display: block;
+  }*/

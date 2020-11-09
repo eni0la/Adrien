@@ -1,11 +1,11 @@
 * {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
 }
 body{
   font-family: 'Inter' , sans-serif;
   overflow-x: hidden;
-  max-width: 100%;
+  width: 100%;
 }
 a {
   cursor: pointer;
@@ -42,7 +42,7 @@ transform: translateX(6.95%);
   color: #0072FF;
   width: 90%;
   font-size: 16px;
-  transform: translateX(6%);
+  transform: translateX(7%);
   letter-spacing: -0.3px;
   line-height: 38px;
 }
@@ -54,12 +54,17 @@ transform: translateX(6.95%);
   width: 87%;
   border-radius: 2%;
 }
+#photo img:hover{
+  opacity:0.8;
+  color:#ffffff;
+  transform: scale(1.02);
+  transition: background 300ms ease, transform 300ms ease, color 300ms ease;
+}
 #photo p{
 color: #00000080;
 font-size: 12px;
-width: 90%;
 margin: 10px 0px 100px;
-transform: translateX(8%);
+transform: translateX(6.5%);
 letter-spacing: 1.2px;
 }
 #dribble {
@@ -81,7 +86,6 @@ letter-spacing: 1.2px;
   background-color:#111112 ;
   padding: 140px 0 80px 0;
   margin-top: 80px;
-  width: 100%;
 }
 #contact .about {
   width: 50%;
@@ -107,14 +111,17 @@ line-height: 24px;
   color: #ffffff;
   font-size: 36px;
   line-height: 44px;
-  margin-bottom: 35px;
+  margin-bottom: 43px;
   font-family:NewYorkExtraLarge-Bold, 'Playfair Display', serif ;
   
+}
+#contact .talk p img {
+  font-size: 6em;
 }
 #contact .talk a{
   color: #919192;
   text-decoration: none;
-  font-size: 1.9em;
+  font-size: 1.5em;
 }
 #contact .talk a:hover{
   color: #0072FF;
@@ -144,44 +151,5 @@ footer{
   padding-bottom: 6em;
  border-top: #919192;
  padding-top: 7em;
- padding-left: 8%; 
-}
-@media screen and (max-width: 800px) {
-  #contact .talk a{
-    font-size: 1em;
-  }
-}
-@media screen and (max-width: 800px) {
-  #contact {
-    display: block;
-  }
-}
-@media screen and (max-width: 800px) {
-  #contact .about h5 {
-    margin-left: -1em;
-  }
-}
-@media screen and (max-width: 800px) {
-  #contact .about p{
-    margin-left: -2em;
-    width: 100%;
-    margin-bottom: 4em;
-  }
-}
-@media screen and (max-width: 800px) {
-  #contact .talk a {
-    margin-left: -1.3em;
-  }
-}
-@media screen and (max-width: 800px) {
-  #contact .talk p {
-    transform: translateX(-13%);
-    width: 100%;
-  }
-}
-@media screen and (max-width: 800px) {
-  #contact .talk h5 {
-    transform: translateX(-13%);
-    
-  }
+ padding-left: 6%; 
 }

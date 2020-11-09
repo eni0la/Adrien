@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Inter' , sans-serif;
+  overflow-x: hidden;
+}
+a {
+  cursor: pointer;
+}
+
+#main .main1 h1 {
+color: #171D29;
+font-family: 'Inter', sans-serif;
+font-weight: 600;
+font-size: 60px;
+width: 90%;
+line-height: 72px;
+letter-spacing: -0.93px;
+margin-top: 130px;
+display: block;
+transform: translateX(6.95%);
+}
+#main .main2 p{
+  font-size: 20px;
+  line-height: 29px;
+  color: #81858B;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  letter-spacing: -0.15px;
+  transform: translateX(6.95%);
+  width: 90%;
+}
+.available {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  margin-bottom: 100px;
+  color: #0072FF;
+  font-size: 16px;
+  transform: translateX(6%);
+  letter-spacing: -0.3px;
+  line-height: 38px;
+}
+.available p{
+  margin-left: 1em;
+}
+#photo img {
+  margin-left:6.5%;
+  width: 87%;
+  border-radius: 2%;
+}
+#photo p{
+color: #00000080;
+font-size: 12px;
+margin: 10px 0px 100px;
+transform: translateX(6.5%);
+letter-spacing: 1.2px;
+}
+#dribble {
+  background-color: rgba(234, 76, 137, 0.07);
+  width: 87%;
+  margin-left: 6.5%;
+  border-radius: 4%;
+}
+#dribble p {
+  text-align: center;
+  padding: 30px 0;
+  border-radius: 20px;
+  color: #EA4C89;
+  font-size: 16px;
+}
+#contact {
+  display: flex;
+  justify-content: space-between;
+  background-color:#111112 ;
+  padding: 140px 0 80px 0;
+  margin-top: 80px;
+}
+#contact .about {
+  width: 55%;
+}
+#contact .about h5{
+color: #ffffff;
+font-size: 40px;
+font-family:NewYorkExtraLarge-Bold, 'Playfair Display', serif;
+margin-bottom: 40px;
+transform: translateX(12%);
+}
+#contact .about p{
+color: #919192;
+transform: translateX(12%);
+font-size: 16px;
+letter-spacing: -0.3px;
+line-height: 24px;
+}
+#contact .talk {
+  width: 40%;
+}
+#contact .talk h5{
+  color: #ffffff;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 30px;
+  font-family:NewYorkExtraLarge-Bold, 'Playfair Display', serif ;
+  
+}
+#contact .talk a{
+  color: #919192;
+  text-decoration: none;
+  font-size: 29px;
+}
+#contact .talk a:hover{
+  color: #0072FF;
+}
+#contact .talk p{
+  font-size: 16px;
+  color: #919192;
+  background-color: #1E1E1E;
+  margin-top: 1.5em;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 400px;
+  
+
+}
+#contact .talk p:hover{
+  background-color: rgba(0, 114, 255, 0.1);
+  color: #0072ff;
+  transform: scale(1.02);
+  transition: background 300ms ease, transform 300ms ease, color 300ms ease;
+}
+footer{
+  background-color: #111112;
+  color: #919192;
+  font-size: 14px;
+  padding-bottom: 6em;
+ border-top: #919192;
+ padding-top: 7em;
+ padding-left: 8%; 
+}

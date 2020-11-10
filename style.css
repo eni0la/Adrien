@@ -185,13 +185,14 @@ line-height: 24px;
   @media screen and (max-width: 950px) {
   #contact .talk {
     margin-left: 2.5em;
-    width: 80%;
+    width: 85%;
     margin-top: 3em;
   }
 }
 @media screen and (max-width: 950px)  {
   #contact .about{
-    width: 70%;
+    width: 75%;
+    margin-top: -6em;
     justify-content: center;
   }
 }

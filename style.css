@@ -13,7 +13,7 @@ color: #171D29;
 font-family: 'Inter', sans-serif;
 font-weight: 600;
 font-size: 60px;
-width: 90%;
+width: 85%;
 line-height: 72px;
 letter-spacing: -0.93px;
 margin-top: 130px;
@@ -29,7 +29,7 @@ transform: translateX(6.95%);
   margin-bottom: 50px;
   letter-spacing: -0.15px;
   transform: translateX(6.95%);
-  width: 95%;
+  width: 90%;
 }
 .available {
   display: flex;
@@ -47,8 +47,8 @@ transform: translateX(6.95%);
   margin-left: 1em;
 }
 #photo img {
-  margin-left:6.5%;
-  width: 87%;
+  transform: translateX(3%);
+  width: 90%;
   border-radius: 2%;
 }
 #photo img:hover{
@@ -67,8 +67,8 @@ letter-spacing: 1.2px;
 }
 #dribble {
   background-color: rgba(234, 76, 137, 0.07);
-  width: 87%;
-  margin-left: 6.5%;
+  width: 90%;
+  margin-left: 2.7%;
   border-radius: 4%;
 }
 #dribble p {
@@ -87,7 +87,7 @@ letter-spacing: 1.2px;
   margin-left: -1.2em;
 }
 #contact .about {
-  width: 50%;
+  width: 45%;
 }
 #contact .about h5{
 color: #ffffff;
@@ -98,6 +98,7 @@ transform: translateX(12%);
 }
 #contact .about p{
 color: #919192;
+text-align: justify;
 transform: translateX(12%);
 font-size: 16px;
 letter-spacing: -0.3px;
@@ -117,7 +118,7 @@ line-height: 24px;
 #contact .talk a{
   color: #919192;
   text-decoration: none;
-  font-size: 1.8em;
+  font-size: 1.7em;
 }
 #contact .talk a:hover{
   color: #0072FF;
@@ -153,21 +154,26 @@ line-height: 24px;
   background-color: #111112;
   color: #919192;
   font-size: 14px;
-  padding-top: 7em;
-  padding-left: 3.2em;
+  padding-top: 1em;
+  margin-top: -0.5em;
+  padding-left: 4em;
+  height: 7em;
+  width: 100vw;
+  margin-left: -0.61em;
 }
 
 @media screen and (max-width: 950px) {
   #main .main1 h1{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
     letter-spacing: -0.93px;
+    line-height: 45px;
   }
   }
   @media screen and (max-width: 950px) {
     #main .main2 p{
-      font-size: 19px;
-      width: 90%;
+      font-size: 18px;
+      width: 86%;
     }
   }
   @media screen and (max-width: 950px) {
@@ -193,6 +199,10 @@ line-height: 24px;
   #contact .about{
     width: 75%;
     margin-top: -6em;
-    justify-content: center;
+  }
+}
+@media screen and (max-width: 950px)  {
+  #contact .about p{
+    letter-spacing: -0.9px;
   }
 }
